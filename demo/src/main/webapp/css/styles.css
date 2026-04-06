@@ -1,0 +1,19 @@
+* {
+    background-color: rgb(53, 65, 102);
+    color: rgb(255, 255, 255);
+    font-family:Tahoma, sans-serif;
+}
+
+.cabecera__general {
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__nav {
+    display: flex;
+    gap: 20px;
+}
