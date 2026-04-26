@@ -1,19 +1,115 @@
 * {
-    background-color: rgb(53, 65, 102);
-    color: rgb(255, 255, 255);
-    font-family:Tahoma, sans-serif;
+  color: rgb(0, 0, 0);
+  margin: 0.3em;
+  font-size: 1.1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background: #d4d4d4;
+background: radial-gradient(circle, rgba(212, 212, 212, 1) 0%, rgba(163, 163, 163, 1) 70%, rgba(133, 133, 133, 1) 100%);
+}
+
+/* ////////////////////////////////////////////////////////7/// */
+ /* ESTILOS CABECERA COMUN ENTRE PAGINAS */
+/* ////////////////////////////////////////////////////////7/// */
 .cabecera__general {
-    margin: 0px;
-    padding: 0px;
-    border-bottom: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu__nav {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
+
+.menu__nav > li {
+    list-style: none;
+}
+
+/* CARTELES GENERALES */
+.descripccion__general {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 1.8em;
+}
+
+.descripccion__general > div{
+    border-radius: 1.2em;
+
+    border-left: 0.2em solid rgba(0, 0, 0, 0.582);
+    border-right: 0.2em solid rgba(0, 0, 0, 0.582);
+
+    background-color: #00000026;
+    width: 25vw;
+}
+
+.descripccion__general > div > p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.462);
+    font-size: 0.7em;
+}
+
+.descripccion__general > div > h2 {
+    text-align: center;
+}
+/* ////////////////////////////////////////////////////////7/// */
+/* SECCION PRENDAS SUELTAS */
+/* ////////////////////////////////////////////////////////7/// */
+.prendas__sueltas > div {
+    background-color: black;
+    border-radius: 1.2em;
+}
+
+/* ////////////////////////////////////////////////////////7/// */
+/* SECCION DE EXPOSICION */
+/* ////////////////////////////////////////////////////////7/// */
+.section__exp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tarjeta__ejemplo {
+  padding-top: 50px;  
+  padding-bottom: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  width: 30vw;
+  height: auto;
+
+  border-radius: 2em;
+  border: 2px solid rgba(255, 255, 255, 0.366);
+
+  background: radial-gradient(
+    circle,
+    rgba(217, 181, 156, 1) 0%,
+    rgba(189, 113, 87, 1) 50%,
+    rgba(247, 176, 156, 1) 100%
+  );
+}
+
+.tarjeta__ejemplo > * {
+    margin: 0px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+img {
+    max-width: 20vh;
+    max-height: auto;
+}
+
+.tarjeta__ejemplo img {
+  background-color: transparent;
+}
+
